@@ -18,7 +18,9 @@ console.log(result2);   // [ 'RUN!', 'FORREST!' ]
 
 ***********************************************************************/
 
-// Your code here
+const arrowMyMap = (arr, cb) => {
+  arrowMyMap.arrowMyMap
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
