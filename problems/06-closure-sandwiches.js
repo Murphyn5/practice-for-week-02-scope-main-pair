@@ -17,7 +17,19 @@ sandwich2("pb") // => "One sandwich with tomato and pb"
 
 ***********************************************************************/
 
-// Your code here
+function sandwichMaker() {
+
+  let str = "One sandwich with tomato"
+
+  return topping = function (topping) {
+
+    str = `${str} and ${topping}`
+    return str
+
+
+  };
+}
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

@@ -15,8 +15,20 @@ hidden2(); // returns 1
 
 ***********************************************************************/
 
-// Your code here
+const hiddenCounter = () => {
 
+  let count = 0
+
+  return countUp = function(){
+    count++
+    return count
+  }
+}
+
+let threecount = hiddenCounter(3)
+console.log(threecount())
+console.log(threecount())
+console.log(threecount())
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
