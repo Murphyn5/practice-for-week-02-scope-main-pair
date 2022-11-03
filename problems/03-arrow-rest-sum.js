@@ -11,6 +11,13 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 // Your code here
+const arrowRestSum = (...args) => {
+
+ return  args.reduce(function (acc, current) {
+      return acc + current
+  })
+
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
